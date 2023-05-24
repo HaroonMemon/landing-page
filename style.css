@@ -1,0 +1,176 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container .inner-container {
+    /* width: 1200px; */
+    margin: auto;
+    /* border: 1px solid; */
+}
+
+/* Header Header Header Header Header Header */
+
+.container .inner-container .header{
+    position: sticky !important;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+.container .inner-container .header .logo {
+    /* background-color: blue; */
+    margin: 0px 0px 0px 40px;
+}
+
+.container .inner-container .header .logo h1 {
+    text-transform: lowercase;
+}
+
+.container .inner-container .header .logo h1 span {
+    color: #ebc48f;
+
+}
+
+.container .inner-container .header .navBar {
+    /* background-color: red; */
+    margin: 0px 60px 0px 0px;
+}
+
+.container .inner-container .header .navBar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container .inner-container .header .navBar ul li {
+    /* padding: 30px; */
+    text-align: center;
+    list-style: none;
+}
+
+.container .inner-container .header .navBar ul li a {
+    text-decoration: none;
+    width: auto;
+    padding: 0px 20px 0px 50px;
+    color: white;
+    font-size: smaller;
+}
+
+.container .inner-container .header .navBar ul li a:hover {
+    color: #ebc48f;
+    transition: 0.3s;
+}
+
+.container .inner-container .header .btn {
+    /* background-color: pink; */
+    margin: 0px 60px 0px 0px;
+
+}
+
+.container .inner-container .header .btn a {
+    padding: 10px 20px;
+    width: 100px;
+    font-size: smaller;
+    text-decoration: none;
+    background: transparent;
+    border: 1px solid #ebc48f;
+    color: #ebc48f;
+}
+
+.container .inner-container .header .btn a:hover {
+    color: black;
+    background-color: #ebc48f;
+    transition: 1s;
+}
+
+/* Header Header Header Header Header Header */
+
+
+/* Home Home Home Home Home Home Home Home Home */
+
+.container .inner-container .home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/slider.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container .inner-container .home .overlay{
+    background-color: rgba(31, 27, 27, 0.8);
+    width: 100%;
+    height: 100%;
+    
+}
+.container .inner-container .home .overlay .home-text {
+    margin: auto;
+    width: 600px;
+    text-align: center;
+    border: 1px solid transparent;
+}
+.container .inner-container .home .overlay .home-text h5{
+    margin: 150px 0px 0px 0px;
+    color: #ebc48f;
+    font-size: smaller;
+    letter-spacing: 2px;
+}
+
+.container .inner-container .home .overlay .home-text h1{
+    margin: 20px 0px 0px 0px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.container .inner-container .home .overlay .home-text h4{
+    margin: 20px 0px 0px 0px;
+    color: white;
+    letter-spacing: 2px;
+}
+.container .inner-container .home .overlay .home-text .btn-menu{
+    margin: 50px 0px 0px 0px;
+    padding: 30px;
+    text-transform: uppercase;
+    background: transparent;
+    border: 1px solid #ebc48f;
+}
+.container .inner-container .home .overlay .home-text .btn-menu a{
+    text-decoration: none;
+    color: #ebc48f;
+    letter-spacing: 2px;
+    transition: 1s;
+    display: block;
+}
+.container .inner-container .home .overlay .home-text .btn-menu:hover{
+    background-color: #ebc48f;
+    color: black;
+}
+.container .inner-container .home .overlay .home-text .btn-menu a:hover{
+    color: black;
+}
+/* Home Home Home Home Home Home Home Home Home */
+
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(38, 32, 32);
+    color: #ebc48f;
+    text-align: center;
+    text-transform: uppercase;
+}
